@@ -16,7 +16,7 @@ import string
 sys.path.append('python scripts/')
 from ezhang_funcs import *
 
-# First read in the MD calculation
+# First read in the MD calculation, test
 # read data from hdf5 file
 f = h5py.File("MD Calcultions/1K_data/configuration_0.h5")
 #f = h5py.File("MD Calcultions/0.1K_data/configuration_0.h5")

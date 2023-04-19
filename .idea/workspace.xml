@@ -65,7 +65,7 @@
       <workItem from="1681747728354" duration="132000" />
       <workItem from="1681747869757" duration="16021000" />
       <workItem from="1681929363433" duration="3407000" />
-      <workItem from="1681933265634" duration="328000" />
+      <workItem from="1681933265634" duration="415000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <created>1681924236655</created>
@@ -123,7 +123,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681933482470</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Repairing jupyter notebook2">
+      <created>1681933623727</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1681933623727</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -155,7 +162,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="github/master" />
+                        <option value="master" />
                       </list>
                     </value>
                   </entry>
