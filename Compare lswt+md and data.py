@@ -1,4 +1,7 @@
 import numpy as np
+import sys
+sys.path.append('python scripts/')
+
 import matplotlib.pyplot as plt
 import ezhang_funcs as ez
 import glob
@@ -45,7 +48,7 @@ for i, ax in enumerate(axsA):
         ax.set_xticklabels([labels[i], labels[i + 1]])
     ax.set_xlim(np.nanmin(dat[:, 2]), np.nanmax(dat[:, 2]))
     ax.set_ylim(0, 7)
-    c1 = ax.pcolormesh(Q, E, Intensity.T, vmin=0, vmax=1, cmap='Spectral_r')
+    c1 = ax.pcolormesh(Q, E, Intensity.T, vmin=0, vmax=1, cmap='Spectral_r', rasterized=True)
 cbar = fig.colorbar(c1, ax=axsA[6], use_gridspec=True, label='I (a.u.)')
 axsA[0].text(0.2, 0.95, '(a)', fontsize=10, transform=axsA[0].transAxes, horizontalalignment='left',
              verticalalignment='top')

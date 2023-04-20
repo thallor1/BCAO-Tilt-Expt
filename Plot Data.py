@@ -1,6 +1,7 @@
 import glob
 
 import numpy as np
+sys.path.append('python scripts/')
 
 import ezhang_funcs as ez
 from make_spgfigax import make_bcao_spgfigax
